@@ -20,4 +20,24 @@
     -Diagnostic
     -Error handling
     -HTTPs
-    -Tree shaking 
+    -Tree shaking -remove unused code
+    -Different Dev and prod bundles
+
+
+# Food App
+
+Header
+- LOGO
+-Nav Item
+
+Body
+- Search
+- RestaurantContainer
+- RestaurantCard
+     - image
+     - Name of Restaurant, Star Rating, Cuisine
+ footer
+- Copyright
+- Links
+- Address
+- Contacts
