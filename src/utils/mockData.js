@@ -1,7 +1,7 @@
 let resList = [
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "264863",
         "name": "Al Zara Mandi Arabian Restaurant",
@@ -158,7 +158,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "3241",
         "name": "Meghana Foods",
@@ -272,7 +272,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "121603",
         "name": "Kannur Food Point",
@@ -382,7 +382,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "496227",
         "name": "Kitchens of Punjab",
@@ -540,7 +540,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "574263",
         "name": "Rahhams",
@@ -660,7 +660,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "5938",
         "name": "Burger King",
@@ -810,7 +810,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "105167",
         "name": "Bhartiya Jalpan",
@@ -967,7 +967,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "10575",
         "name": "Pizza Hut",
@@ -1116,7 +1116,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "41095",
         "name": "Nandhini Deluxe",
@@ -1274,7 +1274,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "47493",
         "name": "Hari Super Sandwich (3rd Block)",
@@ -1427,7 +1427,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "30531",
         "name": "Hotel Empire",
@@ -1578,7 +1578,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "464482",
         "name": "Maverick & Farmer Coffee",
@@ -1735,7 +1735,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "667962",
         "name": "Paris Panini - Gourmet Sandwiches",
@@ -1893,7 +1893,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "464509",
         "name": "Leon's - Burgers & Wings (Leon Grill)",
@@ -2051,7 +2051,7 @@ let resList = [
     },
     {
       "type": "restaurant",
-      "data": {
+      "info": {
         "type": "F",
         "id": "210945",
         "name": "Royal Restaurant",
