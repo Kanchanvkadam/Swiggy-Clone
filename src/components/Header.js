@@ -4,7 +4,7 @@ import { LOGO_URL } from "../utils/constants.js";
 const Header =()=>{
     const [btnNameReact, setbtnNameReact] = useState("Login");
     return(
-        <div className="header">""
+        <div className="header">
             <div className="logo">
                 <img className="image" src={LOGO_URL} />
             </div>
