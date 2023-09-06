@@ -26,18 +26,16 @@
 
 # Food App
 
-Header
-- LOGO
--Nav Item
-
-Body
-- Search
-- RestaurantContainer
-- RestaurantCard
-     - image
-     - Name of Restaurant, Star Rating, Cuisine
- footer
-- Copyright
-- Links
-- Address
-- Contacts
+    Header
+        Logo
+        Nav Items
+    Body
+        Filter
+        Search
+        Restaurant Container
+        Restaurant Card
+            Img
+            Name of Restaurant, Star Rating, Cuisines, Delivery time, etc...
+    Footer
+        Copyright
+        Links
