@@ -16,13 +16,16 @@ const RestaurantMenu = () => {
         );
         const json = await data.json();
         console.log(json);
+       // console.log(json.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      //  console.log(json.data); 
         setResInfo(json.data);
     };
 
     if (resInfo === null) return <Shimmer />;
-    const { name, cuisines, costForTwo } = resInfo?.cards[0]?.card?.card?.info;
+
+    const { name, cuisines, costForTwo } = resInfo?.cards[2]?.card?.card?.info;
     const { itemCards } =
-        resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card
+        resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card
     console.log(itemCards)
 
     return (
