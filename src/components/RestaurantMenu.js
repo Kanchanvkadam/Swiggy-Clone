@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
-import { MENU_API_URL } from "../utils/constants";
+import { MENU_API_URL, corsProxy } from "../utils/constants";
 
 const RestaurantMenu = () => {
     const [resInfo, setResInfo] = useState(null);
@@ -32,7 +32,7 @@ const RestaurantMenu = () => {
         <div className="menu">
             <h1>{name}</h1>
             <h3>{cuisines.join(", ")}</h3>
-            <h3>{costForTwo}</h3>
+            <h3>{costForTwo/100} for Two</h3>
             <h2>Menu</h2>
             <ul>
                 {itemCards.map((item)=>(
