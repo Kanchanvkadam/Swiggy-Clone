@@ -9,6 +9,7 @@ const RestaurantMenu = () => {
     const {resId} = useParams();
 
     const resInfo = useRestaurantManu(resId);
+    const [showIndex, setShowIndex] = useState(null);
 
     if (resInfo === null) return <Shimmer />;
 
@@ -25,8 +26,8 @@ const RestaurantMenu = () => {
         <div className="text-center">
             <h1 className="font-bold m-4 text-2xl ">{name}</h1>
             <h3 className="font-bold">{cuisines.join(", ")}</h3>
-            {catagories.map((i)=>
-                <RestauranrtCategory data={i?.card?.card}/>
+            {catagories.map((i, index)=>
+                <RestauranrtCategory key={i?.card?.card?.title}  data={i?.card?.card} showItems={index===showIndex?true:false} setShowIndex={()=>setShowIndex(index)}/>
             )}
 
 
